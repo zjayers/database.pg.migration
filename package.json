@@ -1,0 +1,21 @@
+{
+  "name": "database.pg.migration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "migrate": "DATABASE_URL=postgres://postgres:0okmNJI9@localhost:5432/socialnetwork node-pg-migrate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-pg-migrate": "^5.9.0",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "@types/node-pg-migrate": "^2.3.1"
+  }
+}
